@@ -1,60 +1,43 @@
 body {
-color:white;
-background: rgb(242, 123, 44);
-margin: 3px;
-font-family: "Chakra Petch", sans-serif;
-}
-
-header{
-border-bottom: solid 2px white;
-padding: 20px;
-font-size: 32px;
-color: rgb(255, 255, 255);
-}
-
-
-.chamada {
-    background: rgb(250, 151, 86);
-    padding-bottom: 80px;
-    padding-top: 80px;
+    background-color: #169B62; /* Verde da bandeira da Irlanda */
+    color: #FFFFFF;
+    font-family: "Bai Jamjuree", sans-serif;
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
 }
 
-.chamada-texto {
-    margin-right: 5%;
+button {
+    background-color: #FF883E; /* Laranja da bandeira da Irlanda */
+    color: white;
+    font-family: "Bai Jamjuree", sans-serif;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
 }
 
-h1 {
-    font-size: 40px;
+button:hover {
+    background-color: #FF6A00;
 }
 
-p {
-    font-size: 20px;
+.passo {
+    display: none;
 }
 
-.categoria-videos {
-    display: flex;
-    overflow-x: auto;
-    gap: 10px;
+.passo.ativo {
+    display: block;
 }
 
-.categoria {
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-top: 50px;
+main {
+    text-align: center;
+    max-width: 90%;
 }
 
-.categoria-videos img {
-    opacity: 0.5;
-    height: 200px;
-}
-
-.categoria-videos img:hover {
-    opacity: 1.0;
-    border: 3px solid rgb(255, 255, 255);
-}
-
-.categoria h2 {
-    color: rgb(255, 255, 255);
+img {
+    max-width: 90%;
+    border: 3px solid #FFFFFF;
+    border-radius: 10px;
 }
